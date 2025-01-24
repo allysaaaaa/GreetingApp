@@ -1,0 +1,28 @@
+using System;
+namespace GreetingProgram
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Enter the total number of your enrolled courses: ");
+            int course;
+            course = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the price of your favorite book: ");
+            double prize;
+            prize = Convert.ToDouble(Console.ReadLine());
+
+           
+            Console.WriteLine(" Hi there, your name is " + name);
+            Console.WriteLine(" Your total enrolled courses: " + course);
+            Console.WriteLine(" The price of your favorite book: " + prize);
+
+            Console.Write("\nPress any key to exit... ");
+            Console.ReadKey();
+        }
+    }
+}
